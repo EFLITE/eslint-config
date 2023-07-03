@@ -7,13 +7,13 @@ eslint config for svelte
 ### Install
 
 ```bash
-pnpm add -D eslint @eflite/eslint-config
+pnpm add -D eslint @EFLITE/eslint-config
 ```
 
 ### Config `.eslintrc`
 
 ```json
 {
-  "extends": "@eflite"
+  "extends": "@EFLITE"
 }
 ```

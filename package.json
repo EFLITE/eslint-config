@@ -1,9 +1,17 @@
 {
-  "name": "@eflite/eslint-config",
+  "name": "@EFLITE/eslint-config",
   "version": "1.0.0",
   "description": "",
   "author": "",
   "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "github:EFLITE/eslint-config"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
   "keywords": [],
   "main": "index.js",
   "scripts": {

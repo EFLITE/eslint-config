@@ -1,3 +1,7 @@
+# @eflite/eslint-config
+
+eslint config for svelte
+
 ## Usage
 
 ### Install

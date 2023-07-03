@@ -7,7 +7,7 @@ eslint config for svelte
 ### Install
 
 ```bash
-pnpm add -D eslint @EFLITE/eslint-config
+pnpm add -D eslint github:EFLITE/eslint-config
 ```
 
 ### Config `.eslintrc`

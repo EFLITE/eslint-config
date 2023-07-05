@@ -41,7 +41,7 @@ module.exports = {
         'svelte/spaced-html-comment': 'warn',
         'import/first': 'off',
         'import/no-mutable-exports': 'off',
-        'no-multiple-empty-lines': 'off',
+        // 'no-multiple-empty-lines': 'off',
       },
     },
   ],

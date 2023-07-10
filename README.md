@@ -5,13 +5,13 @@
 ### Install
 
 ```bash
-pnpm add -D eslint github:EFLITE/eslint-config
+pnpm add -D eslint github:eflite/eslint-config
 ```
 
 ### Config `.eslintrc`
 
 ```json
 {
-  "extends": "@EFLITE"
+  "extends": "@eflite"
 }
 ```

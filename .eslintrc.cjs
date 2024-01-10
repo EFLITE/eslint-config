@@ -1,6 +1,6 @@
 module.exports = {
   root: true,
-  extends: ['@antfu', 'plugin:svelte/recommended'],
+  extends: ['@antfu/eslint-config-ts', 'plugin:svelte/recommended'],
   globals: {
     globalThis: false,
   },

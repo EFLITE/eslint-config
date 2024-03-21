@@ -41,8 +41,8 @@ module.exports = {
         'svelte/spaced-html-comment': 'warn',
         'import/first': 'off',
         'import/no-mutable-exports': 'off',
-
         // false positive
+        'no-undef-init': 'off',
         'unused-imports/no-unused-vars': 'off',
         '@typescript-eslint/no-use-before-define': 'off',
       },

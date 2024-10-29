@@ -1,0 +1,27 @@
+{
+  "name": "@eflite/eslint-config",
+  "version": "1.0.2",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "github:eflite/eslint-config"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "keywords": [],
+  "main": "index.js",
+  "dependencies": {
+    "@antfu/eslint-config": "^3.8.0",
+    "@typescript-eslint/eslint-plugin": "^8.12.1",
+    "@typescript-eslint/parser": "^8.12.1",
+    "eslint": "^9.13.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-import": "^2.31.0",
+    "eslint-plugin-svelte": "^2.46.0",
+    "svelte": "^5.1.4"
+  }
+}

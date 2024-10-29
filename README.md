@@ -10,8 +10,8 @@ pnpm add -D github:eflite/eslint-config
 
 ### Config `.eslintrc`
 
-```json
-{
-  "extends": "@eflite"
-}
+```js
+import config from '@eflite/eslint-config'
+
+export default config.append({ ignores: ['dist'] })
 ```

@@ -3,6 +3,9 @@ import antfu from '@antfu/eslint-config'
 export default antfu(
   {
     svelte: true,
+    rules: {
+      'style/quotes': ['error', 'single', { avoidEscape: true, allowTemplateLiterals: true }],
+    }
   },
   {
     files: ['**/*.svelte'],

@@ -17,12 +17,7 @@
   "main": "index.js",
   "dependencies": {
     "@antfu/eslint-config": "^3.8.0",
-    "@typescript-eslint/eslint-plugin": "^8.12.1",
-    "@typescript-eslint/parser": "^8.12.1",
     "eslint": "^9.13.0",
-    "eslint-config-prettier": "^9.1.0",
-    "eslint-plugin-import": "^2.31.0",
-    "eslint-plugin-svelte": "^2.46.0",
-    "svelte": "^5.1.4"
+    "eslint-plugin-svelte": "^2.46.0"
   }
 }

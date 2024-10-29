@@ -3,6 +3,7 @@
   "version": "1.0.2",
   "description": "",
   "author": "",
+  "type": "module",
   "license": "ISC",
   "repository": {
     "type": "git",

@@ -5,7 +5,7 @@
 ### Install
 
 ```bash
-pnpm add -D eslint github:eflite/eslint-config
+pnpm add -D github:eflite/eslint-config
 ```
 
 ### Config `.eslintrc`

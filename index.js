@@ -15,7 +15,6 @@ export default antfu(
       'svelte/no-store-async': 'error',
       'svelte/require-store-reactive-access': 'error',
       'svelte/require-event-dispatcher-types': 'error',
-      'svelte/button-has-type': 'error',
       'svelte/no-dupe-on-directives': 'error',
       'svelte/infinite-reactive-loop': 'error',
       'svelte/valid-prop-names-in-kit-pages': 'error',

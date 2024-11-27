@@ -8,7 +8,7 @@
 pnpm add -D github:eflite/eslint-config
 ```
 
-### Config `.eslintrc`
+### Config `eslint.config.js`
 
 ```js
 import config from '@eflite/eslint-config'

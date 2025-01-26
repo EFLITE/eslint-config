@@ -25,6 +25,8 @@ export default antfu(
       'svelte/no-svelte-internal': 'error',
       'svelte/no-immutable-reactive-statements': 'error',
       'svelte/sort-attributes': 'warn',
+      'svelte/require-each-key': 'warn',
+      'unused-imports/no-unused-vars': 'off',
       'svelte/block-lang': [
         'error',
         {

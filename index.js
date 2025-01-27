@@ -5,6 +5,20 @@ export default antfu(
     svelte: true,
     rules: {
       'style/quotes': ['error', 'single', { avoidEscape: true, allowTemplateLiterals: true }],
+      'unused-imports/no-unused-vars': 'off',
+      'no-unused-vars': 'off',
+      'ts/no-unused-vars': [
+        'warn',
+        {
+          args: 'all',
+          argsIgnorePattern: '^_',
+          caughtErrors: 'all',
+          caughtErrorsIgnorePattern: '^_',
+          destructuredArrayIgnorePattern: '^_',
+          varsIgnorePattern: '^_',
+          ignoreRestSiblings: true
+        }
+      ]
     }
   },
   {
@@ -26,15 +40,13 @@ export default antfu(
       'svelte/no-immutable-reactive-statements': 'error',
       'svelte/sort-attributes': 'warn',
       'svelte/require-each-key': 'warn',
-      'unused-imports/no-unused-vars': 'off',
       'svelte/block-lang': [
         'error',
         {
-          script: ['ts'], // a list of languages or null to signify no language specified
+          script: ['ts'] // a list of languages or null to signify no language specified
           // style: 'scss', // same as for script, a single value can be used instead of an array.
-        },
-      ],
-    },
-  },
-
+        }
+      ]
+    }
+  }
 )

@@ -16,8 +16,8 @@
   "keywords": [],
   "main": "index.js",
   "dependencies": {
-    "@antfu/eslint-config": "^4.1.0",
-    "eslint": "^9.19.0",
+    "@antfu/eslint-config": "^4.3.0",
+    "eslint": "^9.20.1",
     "eslint-plugin-svelte": "^2.46.1"
   }
 }

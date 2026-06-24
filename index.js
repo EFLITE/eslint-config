@@ -4,7 +4,6 @@ export default antfu(
   {
     svelte: true,
     rules: {
-      'style/quotes': ['error', 'single', { avoidEscape: true, allowTemplateLiteral: 'avoidEscape' }],
       'unused-imports/no-unused-vars': 'off',
       'no-unused-vars': 'off',
       'ts/no-unused-vars': [
